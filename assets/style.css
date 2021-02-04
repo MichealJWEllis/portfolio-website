@@ -66,3 +66,11 @@ header nav ul li a:hover {
   text-shadow: none;
   color: lightblue;
 }
+.hero {
+  background-image: url(./images/colorful_code_wallpaper1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: 100%;
+  border-bottom: 5px solid black;
+}
