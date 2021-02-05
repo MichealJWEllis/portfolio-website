@@ -95,3 +95,13 @@ header nav ul li a:hover {
   background-color: black;
   opacity: .95;
 }
+.projects div {
+  display: flex;
+  font-size: 30px;
+  border: 5px solid green;
+  padding: 60px;
+  border-radius: 40px;
+  background-color: black;
+  opacity: .95;
+}
+
