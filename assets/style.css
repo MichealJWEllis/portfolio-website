@@ -8,24 +8,15 @@ body {
   overflow: auto;
 }
 header {
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0f9b0f,
-    #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0f9b0f,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: grey;
   padding-bottom: 30px;
   border-bottom: 5px solid black;
 }
 header div img {
-  height: 400px;
+  height: 300px;
+  width: 350px;
   border: px solid black;
-  border-radius: 50%;
+  border-radius: 10%;
   box-shadow: 2px 2px 100px;
   margin: 40px 40px;
   opacity: 0.9;
@@ -66,12 +57,11 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   border-radius: 20px;
-  text-shadow: none;
-  color: yellow;
+  text-shadow: 2px 2px 10px;
   overflow: none;
 }
 .hero {
-  background-image: url(./images/colorful_code_wallpaper.jpg);
+  background-image: url(./images/Photo_6553647_DJI_47_jpg_4169554_0_202113017024_photo_original.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -83,24 +73,25 @@ header nav ul li a:hover {
 .hero h2 {
   display: flex;
   justify-content: center;
-  color: yellow;
+  color: white;
   padding-bottom: 40px;
   font-weight: bolder;
   font-size: xxx-large;
   padding-top: 40px;
+  text-shadow: 2px 2px 10px;
 }
 .hero h3 {
   display: flex;
   justify-content: center;
-  color: yellow;
   padding-bottom: 20px;
   font-weight: bolder;
-  font-size: x-large;
+  font-size: xx-large;
   padding-top: 40px;
+  color: white;
 }
 .hero p {
   font-size: 30px;
-  border: 5px solid green;
+  border: 5px solid black;
   padding: 40px;
   border-radius: 40px;
   background: #000000; /* fallback for old browsers */
@@ -115,12 +106,21 @@ header nav ul li a:hover {
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  opacity: 0.95;
+  opacity: 0.8;
   display: inline-block;
+}
+.herocard {
+  font-size: 30px;
+  width: 100%;
+  padding: 40px;
+}
+.herocard img {
+  width: 600px !important;
+  height: 250px !important;
 }
 .hero ul {
   font-size: 30px;
-  border: 5px solid green;
+  border: 5px solid black;
   padding: 40px;
   border-radius: 40px;
   background: #000000; /* fallback for old browsers */
@@ -139,11 +139,14 @@ header nav ul li a:hover {
   list-style-type: none;
   display: inline-block;
 }
-.hero section {
-  padding: 20px;
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: xxx-large;
 }
-.test {
-  text-align: center;
+.hero section {
+  padding: 60px;
 }
 .project div {
   display: inline-flex;
@@ -153,7 +156,7 @@ header nav ul li a:hover {
 }
 .project img:hover {
   transform: scale(1.1);
-  border: 4px solid yellow;
+  border: 8px solid black;
 }
 .project img {
   border-radius: 20px;
@@ -165,20 +168,11 @@ header nav ul li a:hover {
 footer {
   text-align: center;
   font-size: xx-large;
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0f9b0f,
-    #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0f9b0f,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: grey;
   color: white;
   padding: 40px;
-  border-top: 3px solid white;
+  border-top: 3px solid black;
+  text-shadow: 2px 2px 10px;
 }
 
 @media screen and (max-width: 980px) {
