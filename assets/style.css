@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Big Shoulders Stencil Display", cursive;
   overflow: auto;
+  font-stretch: extra-expanded;
 }
 header {
   background-color: grey;
@@ -47,13 +48,14 @@ header nav ul {
   padding-top: 20px;
 }
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   color: white;
   border-bottom: 5px solid black;
+  font-size: 60px;
 }
 header nav ul li a:hover {
   border-radius: 20px;
@@ -155,7 +157,7 @@ header nav ul li a:hover {
   padding: 40px 0px 0px 40px;
 }
 .project img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   border: 8px solid black;
 }
 .project img {
